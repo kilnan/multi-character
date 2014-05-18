@@ -1,0 +1,22 @@
+l'idea è quella di un platform multi character: il giocatore controlla un personaggio
+che può collocarsi in certe posizioni e permettere a quello successivo di terminare il livello.
+Il successivo ricomincia dall'inizio il livello o da certi checkpoint. 
+
+Penso sia un gioco schermata fissa, quindi dall'inizio del livello..
+
+- si può fare in modo che sei costretto a usare i vari char per continuare, o che
+usandoli è più facile finire il livello
+
+- usandone più o meno poi si potrebbe avere un vantaggio, tipo vite extra, oppure
+  si può fare che inizi il gioco con 100 char e devi finire tutto..
+
+- pensavo in realtà questa cosa per il gioco meshup strategio a turni + platform,
+ma può avere senso anche da solo forse
+
+
+tech:
+- irrlicht sprites
+- livello una schermata
+- camera zoom opzionale (in teoria no se faccio tutto in puro 2d)
+- livello visto come una mappa bitmap, ogni colore è un tile
+- livello in tiles, personaggio ha movimento libero
